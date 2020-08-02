@@ -45,7 +45,7 @@ public class Filter {
     public static void main(String[] args) {
         for(int i = 1;i<=4;i++){
             try {
-                read(Writer.reName("G:\\trafficdata\\",i)+".csv");
+                read(Writer.reName("E:\\实验\\风险预测\\特征\\",i)+".csv");
                 System.out.println(i);
             } catch (IOException e) {
                 e.printStackTrace();
