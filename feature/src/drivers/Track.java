@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 /**
  * @author cz
+ * 整合原始数据中的gps数据
  */
 public class Track implements Serializable {
     public String driver_id;

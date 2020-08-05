@@ -3,6 +3,7 @@ package drivers;
 public class MathUtil {
 
     /**
+     * 数学方法
      * 传入一个数列x计算平均值
      *
      * @param x

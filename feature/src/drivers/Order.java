@@ -9,6 +9,7 @@ import java.util.*;
 
 /**
  * @author cz
+ * 订单GPS数据特征提取
  */
 public class Order implements Serializable {
     static double speed_limit = 22;

@@ -6,6 +6,9 @@ import java.io.Serializable;
  * @author cz
  */
 public class Location implements Serializable {
+    /**
+     * 坐标类
+     */
     public int date;
     public float lon;
     public float lat;

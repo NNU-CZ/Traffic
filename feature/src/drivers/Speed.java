@@ -2,6 +2,7 @@ package drivers;
 
 /**
  * @author cz
+ * 速度类
  */
 public class Speed {
     double speed;

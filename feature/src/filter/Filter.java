@@ -1,6 +1,6 @@
-package universe;
+package filter;
 
-import file.Writer;
+import iofile.Writer;
 
 import java.io.*;
 
