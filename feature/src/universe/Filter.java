@@ -43,7 +43,7 @@ public class Filter {
     }
 
     public static void main(String[] args) {
-        for(int i = 16;i<=21;i++){
+        for(int i = 1;i<=30;i++){
             try {
                 read(Writer.reName("E:\\实验\\风险预测\\track\\",i)+".csv");
                 System.out.println(i);
