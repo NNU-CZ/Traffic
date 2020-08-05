@@ -10,11 +10,11 @@ import java.io.*;
 public class Filter {
     public static void read(String filename) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(filename));
-        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\实验\\风险预测\\特征\\train.csv",true));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\实验\\风险预测\\特征\\test.csv",true));
         String line = "";
         while((line = br.readLine())!=null){
             String[] lines = line.split(",");
-            if(Double.isNaN(Double.parseDouble(lines[7]))||Double.isNaN(Double.parseDouble(lines[8]))||Double.parseDouble(lines[10])>22){
+            if(Double.isNaN(Double.parseDouble(lines[9]))||Double.parseDouble(lines[9])>15){
                 continue;
             }
             String flag = "0";
@@ -43,9 +43,9 @@ public class Filter {
     }
 
     public static void main(String[] args) {
-        for(int i = 1;i<=4;i++){
+        for(int i = 16;i<=21;i++){
             try {
-                read(Writer.reName("E:\\实验\\风险预测\\特征\\",i)+".csv");
+                read(Writer.reName("E:\\实验\\风险预测\\track\\",i)+".csv");
                 System.out.println(i);
             } catch (IOException e) {
                 e.printStackTrace();
