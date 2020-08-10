@@ -14,7 +14,7 @@ public class Filter {
         String line = "";
         while((line = br.readLine())!=null){
             String[] lines = line.split(",");
-            if(Double.isNaN(Double.parseDouble(lines[9]))||Double.parseDouble(lines[9])>15){
+            if(Double.isNaN(Double.parseDouble(lines[9]))){
                 continue;
             }
             String flag = "0";
