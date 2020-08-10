@@ -34,6 +34,13 @@ public class MathUtil {
         }
         return var / n;
     }
+    public static double min(double T1, double T2) {
+        return T1<T2?T1:T2;
+    }
+
+    public static double max(double T1, double T2) {
+        return  T1>T2 ? T1:T2;
+    }
 
     /**
      * 传入一个数列x计算标准差
