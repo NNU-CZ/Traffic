@@ -113,9 +113,9 @@
 
       i Fill in the blanks in following statement, including insert your software name, the year of the first publication of your software, and your name identified as the copyright owner; 
 
-      ii Create a iofile named “LICENSE” which contains the whole context of this License in the first directory of your software package;
+      ii Create a fileios named “LICENSE” which contains the whole context of this License in the first directory of your software package;
 
-      iii Attach the statement to the appropriate annotated syntax at the beginning of each source iofile.
+      iii Attach the statement to the appropriate annotated syntax at the beginning of each source fileios.
 
 
    Copyright (c) [Year] [name of copyright holder]
